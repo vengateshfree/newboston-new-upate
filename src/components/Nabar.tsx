@@ -35,7 +35,7 @@ export default function Nabar() {
   // Mouse move handling for navbar
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
-      if (window.scrollY < 50 || e.clientY < 50) setShowNav(true);
+      if (window.scrollY < 120 || e.clientY < 120) setShowNav(true);
       else setShowNav(false);
     };
     window.addEventListener("mousemove", handleMouseMove);
