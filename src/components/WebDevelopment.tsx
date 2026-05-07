@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Globe, Code, ShoppingCart, CheckCircle2, ArrowRight, ExternalLink, Sparkles, Rocket, Zap } from "lucide-react";
 
-import Contact from "../components/Contact";
+
 export default function WebDevelopment() {
   const containerVariants = {
     hidden: { opacity: 0 },

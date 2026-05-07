@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import { Server, Cloud, Shield, Zap, Globe2, Clock, CheckCircle2, ArrowRight, Rocket, Sparkles } from "lucide-react";
-import Contact from "./Contact";
+import { Server, Cloud, Shield, Zap, Globe2, Clock, ArrowRight, Rocket, Sparkles } from "lucide-react";
+
 
 export default function CloudInfrastructure() {
   const containerVariants = {

@@ -1,21 +1,13 @@
 import { motion } from "framer-motion";
 import { 
-  Zap, LayoutDashboard, ShieldCheck, ClipboardCheck, 
+  Zap, LayoutDashboard, ShieldCheck, 
   Rocket, Sparkles, ArrowRight, Target, Code, Cloud, 
   Users, CheckCircle2, Globe
 } from "lucide-react";
 import aboutImg from "../assets/aboutimg.png";
 
 function About() {
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: { opacity: 1, transition: { staggerChildren: 0.15 } }
-  };
 
-  const itemVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } }
-  };
 
   return (
     <div className="pt-20">
